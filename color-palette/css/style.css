@@ -1,0 +1,77 @@
+#p1-heading {
+    font-family: cursive;
+    text-align: center;
+
+}
+
+#p1-c1 {
+    background-color: #FF9A22;
+    color: #222;
+    font-family: cursive;
+    text-align: center;
+    padding: 24px;
+}
+
+#p1-c2 {
+    background-color: #FE6C62;
+    color: #222;
+    font-family: cursive;
+    text-align: center;
+    padding: 24px;
+}
+
+#p1-c3 {
+    background-color: #D25B8C;
+    color: #222;
+    font-family: cursive;
+    text-align: center;
+    padding: 24px;
+}
+
+#p2-c1 {
+    background-color: #CAFF27;
+    color: #222;
+    font-family: cursive;
+    text-align: center;
+    padding: 24px;
+}
+
+#p2-c2 {
+    background-color: #53E36A;
+    color: #222;
+    font-family: cursive;
+    text-align: center;
+    padding: 24px;
+}
+
+#p2-c3 {
+    background-color: #00BF8F;
+    color: #222;
+    font-family: cursive;
+    text-align: center;
+    padding: 24px;
+}
+
+#p3-c1 {
+    background-color: #FF955E;
+    color: #222;
+    font-family: cursive;
+    text-align: center;
+    padding: 24px;
+}
+
+#p3-c2 {
+    background-color: #FFCB50;
+    color: #222;
+    font-family: cursive;
+    text-align: center;
+    padding: 24px;
+}
+
+#p3-c3 {
+    background-color: #F9F871;
+    color: #222;
+    font-family: cursive;
+    text-align: center;
+    padding: 24px;
+}
