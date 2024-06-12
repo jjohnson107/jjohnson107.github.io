@@ -12,32 +12,68 @@
     border-style: outset;
     display: inline-block;
 }
-.mauve {
-    background-color: #C25E5E;
-    border-color: #C25E5E;
+.red {
+    background-color: red;
+    border-color: red;
 }
 .blue {
     background-color: blue;
     border-color: blue;
 }
-.tetris-block-2 {
-    padding: 20px;
-    border-width: 12px;
-    border-style: outset;
-    display: inline-block;
+.empty {
+    padding: 20px 85px;
+    background-color: transparent;
+    border-color: transparent;
 }
-.blue {
+.green {
+    background-color: green;
+    border-color: green;
+}
+.pink {
+    background-color: pink;
+    border-color: pink;
+}
+.green {
+    background-color: green;
+    border-color: green;
+}
+.pink {
+    background-color: pink;
+    border-color: pink;
+}
+.long {
+    background-color: transparent;
+    border-color: transparent;
+}
+.orange {
+    background-color: orange;
+    border-color: orange;
+}
+.long {
+    padding: 85px 20px;
+    background-color: transparent;
+    border-color: transparent;
+}
+.turquoise {
+    background-color: turquoise;
+    border-color: turquoise;
+}
+.mauve {
+    background-color: mauve;
+    border-color: mauve;
+}
+.long {
+    background-color: transparent;
+    border-color: transparent;
+}
+.yellow {
     background-color: yellow;
     border-color: yellow;
 }
 
-.long {
-    padding: 20px 52px;
-}
-.tetris-block-3 {
-    padding: 20px;
-    border-width: 12px;
-    border-style: outset;
-    display: inline-block;
-}
+
+
+
+
+
 
