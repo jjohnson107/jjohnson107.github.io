@@ -1,0 +1,21 @@
+#two-columns {
+    display: flex;
+}
+#sidebar {
+    background-color: #d4d4d4;
+    border: 35px;
+    align-items: center;
+    padding: 50px 25px;
+}
+#sidebar {
+    h4 {background-color: #89CFF0;
+        color: white;
+}
+    h2 {
+        background-color: skyblue;
+        color: white;
+    }
+}
+#main {
+    margin-right: 10%;
+}
