@@ -1,0 +1,39 @@
+.container {
+    width: 600%;
+}
+.container-1 {
+    background-color: black;
+    padding: 100px 5px;
+    color: white;
+}
+.column-E3 h p {
+    display: inline-block;
+    background-color: black;
+    padding: 100px 5px;
+    color: white;
+}
+.container-2 {
+    background-color: darkred;
+    padding: 50px;
+    color: white;
+}
+.container-3 {
+    background-color: navy;
+    padding: 100px;
+    color: white;
+}
+.container-4 {
+    background-color: white;
+    padding: 100px;
+}
+.container-5 {
+    background-color: peru;
+    padding: 100px 5px;
+    color: white;
+}
+.container-6 {
+    background-color: white;
+    padding: 100px;
+    color: black;
+}
+
