@@ -109,10 +109,12 @@ header img {
     }
 }
 
-header ul{
+header {
     list-style-type: none;
-    
+    display: flex;
+    justify-content: space-evenly;
 }
+
 
 
 
