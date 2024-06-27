@@ -1,0 +1,86 @@
+/*
+    Write your CSS for the assignment here.
+
+    You shouldn't need to modify the HTML;
+    however, you are allowed to. 
+    
+    Just be aware that you may break some
+    of the setup.css styling if you do so.
+*/
+
+.pokemon-header {
+    justify-content: space-between;
+}
+.card-style-3 {
+    border-style: solid;
+    margin: 16px;
+    width: 350px;
+    max-width: 350px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    border-color: rgb(255, 221, 0);
+    padding: 16px;
+    justify-content: space-between;
+    border-width: 16px;
+
+    .data {
+        border-style: solid;
+        border-color: rgb(200, 178, 14);
+    }
+    img {
+        width: 100%;
+        border-style: solid;
+        border-width: 6px;
+        border-color: rgb(200, 178, 14);
+    }
+    .attack {
+        display: flex;
+        flex: 1;
+        justify-content: space-between;
+        align-items: center;
+        flex: auto;
+        margin: 8px 0px;
+        padding: 8px 0px 16px;
+        border-bottom: 2px solid black;
+    }
+    .pokemon-header {
+        display: flex;
+        align-items: center;
+    }
+}
+.details {
+    background: radial-gradient(yellow, rgb(228, 171, 0));
+    font-size: 13px;
+    font-weight: bold;
+}
+.power {
+    font-weight: bold;
+    font-size: 24px;
+}
+.bold {
+    font-weight: bold;
+    font-size: 20px;
+}
+div .description {
+    font-size: 15px;
+}
+.data {
+    font-size: 12px;
+    font-weight: bold;
+}
+#pokemon-card-1 {
+    background: radial-gradient(green, lightgreen);
+}
+#pokemon-card-2 {
+    background: radial-gradient(green, lightgreen);
+}
+#pokemon-card-3 {
+    background: radial-gradient(red, orange);
+}
+#pokemon-card-4 {
+    background: radial-gradient(turquoise, skyblue);
+}
+.class {
+    border-top: solid;
+}
