@@ -3,12 +3,11 @@
 }
 
 body {
-    margin: 0px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Times New Roman', Times, serif;
 }
 
-#green-spaghetti {
-    background-image: url(../images/three-heroes-2.jpg);
+#moms-spaghetti {
+    background-image: url(../images/three-heroes-1.jpg);
     height: 100vh;
     background-size: cover;
     background-position: center;
