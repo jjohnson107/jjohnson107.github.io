@@ -1,0 +1,23 @@
+#grid-layout {
+    background-image: url(../images/witch-laughing);
+    height: 24vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    color: white;
+    font-size: 48px;
+}
+
+.cropped-grid-gallery {
+    display: grid;
+    grid-template-columns: auto;
+    grid-auto-rows: 200px;
+    padding: 24px;
+    img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+}
