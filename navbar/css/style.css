@@ -38,3 +38,123 @@ body {
     border-radius: 50%;
 }
 
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+/*
+    Navbar setup and configuration
+*/
+#navbar-1 {
+    background: linear-gradient(to bottom, orange, white);
+    display: flex;
+    align-items: center;
+}
+
+#navbar-1 a {
+    text-decoration: none;
+    color: red;
+    padding: 24px;
+}
+
+#navbar-1 #logo {
+    margin-right: auto;
+}
+
+#navbar-1 #logo img {
+    width: 150px;
+}
+
+#navbar-1 .cta-button {
+    border: white;
+    border-radius: 50%;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+/*
+    Navbar setup and configuration
+*/
+.content-column {
+    width: 800px;
+    margin: 0px auto;
+}
+
+#navbar-top {
+    background: linear-gradient(to bottom, green, #3e6d3e);
+}
+
+#navbar-top .content-column {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}  
+
+#navbar-top a {
+    text-decoration: none;
+    color: white;
+    padding: 24px 0px;
+}
+
+#navbar-top .content-column div a {
+    padding: 24px;
+}
+
+#navbar-top #logo img {
+    width: 150px;
+}
+
+#navbar-top .cta-buttom {
+    background-color: white;
+    color: green;
+    border-radius: 36px;
+    padding: 16px 24px;
+    font-size: 20px;
+    font-weight: bold;
+    min-width: 150px;
+    text-align: center;
+}
+
+#navbar-second {
+    background: linear-gradient(to bottom, orange, orange);
+}
+
+#navbar-second .content-column {
+    display: flex;
+    justify-content: space-between;
+}
+
+#navbar-second a {
+    text-decoration: none;
+    color: white;
+    padding: 12px 0px;
+}
+
+#navbar-bottom {
+    background: linear-gradient(to bottom, black, purple);
+}
+
+#navbar-bottom .content-column {
+    display: flex;
+    justify-content: space-between;
+}
+
+#navbar-bottom a {
+    text-decoration: none;
+    color: white;
+    padding: 12px 0px;
+}
+
