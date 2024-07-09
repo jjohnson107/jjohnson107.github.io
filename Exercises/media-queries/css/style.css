@@ -59,7 +59,7 @@ a {
 ****************************************************************************/
 #nav {
     align-items: center;
-
+    display: flex;
     margin: 0 24px;
     min-height: 50px;
 }
@@ -214,41 +214,39 @@ a {
 
 
 @media screen and (max-width: 768px) {
-    #hero {
-        background-image: url("../images/abstractBackground.jpg");
-        background-size: cover;
-        color: white;
-        height: 120vh;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-        padding: 10%;
-    }
-    .three-cards {
+    #nav, .three-cards, .two-cards {
         flex-direction: column;
     }
-    .two-cards {
-        align-items: center;
-        margin: 48px 0px;
-        display: flex;
-        flex-direction: column;
-    }
+ 
     #hero h1 {
-        font-size: 120px;
-        display: flex;
+        font-size: 50px;
         flex-direction: column;
-    }
-    
+    } 
+
     #hero h3 {
-        font-size: 60px;
-        display: flex;
+        font-size: 26px;
         flex-direction: column;
     }
+
     .two-cards .card img {
         width: 100%;
         object-fit: cover;
     }
     
+    #nav ul, #nav h2 {
+        margin: 4px 0px;
+    }
+    .card {
+        display: flex;
+        flex-direction: column;
+        margin: 24px;
+    }
+    .two-cards {
+        margin: 48px 0px;
+        .card {
+            padding: 0px;
+        }
+    }
 }
 
 
