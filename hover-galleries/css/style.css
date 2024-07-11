@@ -79,7 +79,6 @@ body {
     margin: 24px;
     padding: 24px;
     border-radius: 12px;
-    transition: transform 2s;
     a {
         text-decoration: none;
         color: white;
@@ -88,14 +87,8 @@ body {
         padding: 12px;
         margin-top: 36px;
     }
-    &:hover {
-        transform: flip(180deg);
-    }
 }
-
-
-
-#sect-C .card-contain {
+#sect-C .card {
     opacity: 0;
     visibility: hidden;
     transform: translateY(-8px);
@@ -105,10 +98,16 @@ body {
         transform 2s
     ;
 }
-#sect-C:hover .card-contain {
+#sect-C:hover .card {
     opacity: 1;
     visibility: visible;
     transform: transitionY(0px);
+}
+#sect-C a {
+    &:hover {
+        background-color: firebrick;
+        color: white;
+    }
 }
 
 .btn {
@@ -118,17 +117,12 @@ body {
     color: #ff0059;
     padding: 10px 20px;
     text-align: center;
+    border: 3px solid black;
     transition: box-shadow 0.5s;
     &:hover {
         box-shadow: 
             0px 0px 20px 5px #ff0059,
             inset 0px 0px 10px 5px #ff0059;
-    }
-}
-#sect-C a {
-    &:hover {
-        background-color: firebrick;
-        color: white;
     }
 }
 
