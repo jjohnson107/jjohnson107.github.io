@@ -1,0 +1,137 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    font-family: sans-serif;
+    background-color: white;
+}
+
+#navbar {
+    background-color: yellow;
+    display: flex;
+    align-items: center;
+    width: 100vw;
+}
+#navbar #logo {
+    width: 454px;
+    display: flex;
+    align-items: center;
+}
+#navbar a {
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    padding: 24px;
+}
+#navbar #name {
+    margin-right: auto;
+    font-weight: bold;
+    font-size: 36px;
+    padding: 0px 24px;
+    
+}
+
+.drop-contain {
+    position: relative;
+}
+.drop-menu {
+    position: absolute;
+    visibility: hidden;
+    opacity: 0;
+    transition: 
+        opacity 0.25s,
+        visibility 0.25s
+    ;
+}
+.drop-contain:hover .drop-menu {
+    opacity: 1;
+    visibility: visible;
+    background-color: yellow;
+}
+.drop-contain:last-child .drop-menu {
+    right: 0px;
+}
+
+.drop-menu a {
+    width: 100%;
+    min-width: 200px;
+}
+#navbar .drop-menu a:hover {
+    background-color: white;
+}
+
+.hero {
+    background-image: url(../images/AAP-4.jpg);
+    width: 100vw;
+    height: 70vh;
+    background-position: center;
+    object-fit: cover;
+}
+
+.hero h1 {
+    color: white;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+#navbar img {
+    width: 200px;
+    height: 200px;    
+    align-items: center;
+}
+
+#navbar-second {
+    background: linear-gradient(to bottom, orange, orange);
+}
+
+#navbar-second .content-column {
+    display: flex;
+    justify-content: space-between;
+}
+
+#navbar-second a {
+    text-decoration: none;
+    color: white;
+    padding: 12px 0px;
+}
+
+#navbar-bottom {
+    background: linear-gradient(to bottom, black, purple);
+}
+
+#navbar-bottom .content-column {
+    display: flex;
+    justify-content: space-between;
+}
+
+#navbar-bottom a {
+    text-decoration: none;
+    color: white;
+    padding: 12px 0px;
+}
+
+
+#logo img {
+    margin: 0px auto;
+    object-fit: contain;
+    width: auto;
+}
+
+.hero a {
+    border: solid 3px;
+    padding: 5px;
+    
+}
+
+
+
+
+
+
+
+
+
