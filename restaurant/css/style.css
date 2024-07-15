@@ -1,0 +1,90 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    font-family: sans-serif;
+    background-color: black;
+}
+
+#navbar {
+    background-color: black;
+    display: flex;
+    align-items: center;
+    .drop-contain img {
+        width: 150px;
+        height: 350px;
+        object-fit: cover;
+    };
+}
+#navbar a {
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    padding: 24px;
+}
+#navbar #logo {
+    margin-right: auto;
+    font-weight: bold;
+    font-size: 36px;
+    padding: 0px 24px;
+}
+
+.drop-contain {
+    display: flex;
+    justify-content: flex-start;
+    position: relative;
+    border: 2px 12px;
+}
+.drop-menu {
+    position: absolute;
+    visibility: hidden;
+    opacity: 0;
+    transition: 
+        opacity 0.25s,
+        visibility 0.25s
+    ;
+}
+.drop-contain:hover .drop-menu {
+    opacity: 1;
+    visibility: visible;
+    background-color: black;
+}
+.drop-contain:last-child .drop-menu {
+    right: 0px;
+}
+
+.drop-menu a {
+    width: 100%;
+    min-width: 200px;
+
+}
+#navbar .drop-menu a:hover {
+    background-color: white;
+}
+#hero-1 {
+    background-image: url(../images/hamburger-494706_1280.jpg);
+    width: 1500px;
+    height: 800px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    color: white;
+    font-size: 48px;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+}    
+#hero-2 {
+    display: flex;
+    width: 400px;
+    height: 400px;
+}
+
+
+
