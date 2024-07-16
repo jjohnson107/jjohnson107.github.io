@@ -12,6 +12,7 @@ body {
     width: 95%;
     margin: 20px auto;
 }
+
 #navbar {
     background-color: black;
     .container {
@@ -35,6 +36,12 @@ body {
     font-weight: bold;
     font-size: 36px;
     padding: 0px 24px;
+    img {
+        width: 125%;
+    };
+}
+#navbar .container {
+    align-items: flex-start;
 }
 
 .drop-contain {
@@ -58,9 +65,6 @@ body {
     visibility: visible;
     background-color: black;
 }
-.drop-contain:last-child .drop-menu {
-    right: 0px;
-}
 
 #navbar .drop-menu a {
     width: 100%;
@@ -70,7 +74,8 @@ body {
 
 }
 #navbar .drop-menu a:hover {
-    color: black;
+
+    display: block;
 }
 
 h3 {
@@ -78,8 +83,12 @@ h3 {
     font-style: italic;
     font-size: 24px;
 }
+h3 .container {
+    font-style: italic;
+}
 #hero-1 {
-    background-image: url(../images/hamburger-494706_1280.jpg);
+    background-image: linear-gradient(to bottom,black,rgba(50, 50, 28, 0)), 
+    url(../images/octopus-1921090_1280.jpg);
     width: 100vw;
     height: 800px;
     background-size: cover;
@@ -90,20 +99,189 @@ h3 {
     font-size: 48px;
     display: flex;
     flex-direction: column;
+    margin-top: 10%;
 }
 
 h1 {
     color: white;
 }    
-#hero-2, #hero-3 {
+#hero-2 .container, #hero-3 .container{
     display: flex;
     justify-content: center;
-    
 }
 .images-container img {
     object-fit: contain;
     width: 400px;
     height: 400px;
+}
+
+.item p, h2 {
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+
+.top-items-cuisines {
+    text-align: center;
+    margin-top: 10%;
+}
+
+.top-items-vegies {
+    text-align: center;
+    margin-top: 10%;
+}
+
+.footer {
+    color: white;
+    display: flex;
+    justify-content: column;
+    text-align: center;
+    margin-bottom: 3%;
+    justify-content: space-evenly;
+}
+
+
+
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    font-family: sans-serif;
+    background-color: black;
+}
+
+.container {
+    width: 95%;
+    margin: 20px auto;
+}
+
+#navbar {
+    background-color: black;
+    .container {
+        display: flex;
+        align-items: center;
+    }
+    .drop-contain img {
+        width: 150px;
+        height: 350px;
+        object-fit: cover;
+    };
+}
+#navbar a {
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    padding: 24px;
+}
+#navbar #logo {
+    margin-right: auto;
+    font-weight: bold;
+    font-size: 36px;
+    padding: 0px 24px;
+    img {
+        width: 125%;
+    };
+}
+#navbar .container {
+    align-items: flex-start;
+}
+
+.drop-contain {
+    display: flex;
+    justify-content: flex-start;
+    position: relative;
+    border: 2px 12px;
+}
+.drop-menu {
+    position: absolute;
+    visibility: hidden;
+    opacity: 0;
+    transition: 
+        opacity 0.25s,
+        visibility 0.25s
+    ;
+    height: 100%;
+}
+.drop-contain:hover .drop-menu {
+    opacity: 1;
+    visibility: visible;
+    background-color: black;
+}
+
+#navbar .drop-menu a {
+    width: 100%;
+    min-width: 200px;
+    color: white;
+    writing-mode: vertical-lr;
+
+}
+#navbar .drop-menu a:hover {
+
+    display: block;
+}
+
+h3 {
+    color: white;
+    font-style: italic;
+    font-size: 24px;
+}
+h3 .container {
+    font-style: italic;
+}
+#hero-1 {
+    background-image: linear-gradient(to bottom,black,rgba(50, 50, 28, 0)), 
+    url(../images/PngItem_1862489.png);
+    width: 60vw;
+    height: 800px;
+    background-size: cover;
+    background-position: center;
+    justify-content: center;
+    align-items: flex-start;
+    color: white;
+    font-size: 48px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10%;
+}
+
+h1 {
+    color: white;
+}    
+#hero-2 .container, #hero-3 .container{
+    display: flex;
+    justify-content: center;
+}
+.images-container img {
+    object-fit: contain;
+    width: 400px;
+    height: 400px;
+}
+
+.item p, h2 {
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+
+.top-items-cuisines {
+    text-align: center;
+    margin-top: 10%;
+}
+
+.top-items-vegies {
+    text-align: center;
+    margin-top: 10%;
+}
+
+.footer {
+    color: white;
+    display: flex;
+    justify-content: column;
+    text-align: center;
+    margin-bottom: 3%;
+    justify-content: space-evenly;
 }
 
 
