@@ -86,6 +86,10 @@ h3 {
 h3 .container {
     font-style: italic;
 }
+.btn {
+    border: purple;
+    border-radius: 50%;
+}
 #hero-1 {
     background-image: linear-gradient(to bottom,black,rgba(50, 50, 28, 0)), 
     url(../images/octopus-1921090_1280.jpg);
@@ -230,12 +234,14 @@ h3 {
 h3 .container {
     font-style: italic;
 }
-#hero-1 {
-    background-image: linear-gradient(to bottom,black,rgba(50, 50, 28, 0)), 
-    url(../images/PngItem_1862489.png);
+#hero-A {
+    background-image: 
+    radial-gradient(at center, rgba(0, 0, 0, 0), rgb(0, 0, 0)), 
+    url(../images/186-1862489_mystic-hand-png-transparent-png.jpg);
     width: 60vw;
-    height: 800px;
-    background-size: cover;
+    height: 80vh;
+    background-size: contain;
+    background-repeat: no-repeat;
     background-position: center;
     justify-content: center;
     align-items: flex-start;
