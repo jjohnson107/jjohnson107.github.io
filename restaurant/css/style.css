@@ -94,7 +94,7 @@ h3 .container {
     background-image: linear-gradient(to bottom,black,rgba(50, 50, 28, 0)), 
     url(../images/octopus-1921090_1280.jpg);
     width: 100vw;
-    height: 800px;
+    height: 200vh;
     background-size: cover;
     background-position: center;
     justify-content: center;
@@ -103,15 +103,35 @@ h3 .container {
     font-size: 48px;
     display: flex;
     flex-direction: column;
-    margin-top: 10%;
+    margin-top: 5%;
+}
+#hero-1 a {
+    color: black;
+    text-decoration: none;
+    background-color: purple;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    width: 30%;
+    border: 3px solid purple;
+    padding: 10px;
+    transition: 
+        background-color 0.5s,
+        color 0.5s
+    ;
+    &:hover {
+        background-color: transparent;
+        color: white;
+    } 
 }
 
 h1 {
     color: white;
 }    
-#hero-2 .container, #hero-3 .container{
+#hero-2 .container {
     display: flex;
     justify-content: center;
+    overflow-x: scroll;
 }
 .images-container img {
     object-fit: contain;
@@ -135,6 +155,46 @@ h1 {
     margin-top: 10%;
 }
 
+#hero-3 {
+    background-image: 
+    radial-gradient(at center, rgba(0, 0, 0, 0), rgb(0, 0, 0)), 
+    url(../images/chef-spotlight-2.jpg);
+    width: 80vw;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    justify-content: center;
+    color: white;
+    font-size: 48px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10%;
+}
+#hero-3 a {
+    color: black;
+    text-decoration: none;
+    background-color: purple;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    width: 30%;
+    border: 3px solid purple;
+    padding: 10px;
+    transition: 
+        background-color 0.5s,
+        color 0.5s
+    ;
+    &:hover {
+        background-color: transparent;
+        color: white;
+    }    
+}
+
+.spotlight {
+    text-align: center;
+    margin-top: 10%;
+}
+
 .footer {
     color: white;
     display: flex;
@@ -144,7 +204,7 @@ h1 {
     justify-content: space-evenly;
 }
 
-
+/* Menu section */
 
 * {
     box-sizing: border-box;
@@ -222,7 +282,6 @@ body {
 
 }
 #navbar .drop-menu a:hover {
-
     display: block;
 }
 
@@ -251,11 +310,25 @@ h3 .container {
     flex-direction: column;
     margin-top: 10%;
 }
+#hero-A .drop-contain img a:hover {
+    color: black;
+}
+#featured img {
+    display: flex;
 
+}
+#hero-A .container {
+    display: flex;
+    flex-direction: row;
+    overflow-x: scroll;
+} 
 h1 {
     color: white;
 }    
-#hero-2 .container, #hero-3 .container{
+#hero-B .container {
+    overflow-x: scroll;
+}
+#hero-B .container, #hero-C .container{
     display: flex;
     justify-content: center;
 }
@@ -271,14 +344,18 @@ h1 {
     text-decoration: none;
 }
 
-.top-items-cuisines {
+.top-items-cuisines, .top-items-cuisines-2, .top-items-desserts {
     text-align: center;
     margin-top: 10%;
 }
 
-.top-items-vegies {
-    text-align: center;
-    margin-top: 10%;
+
+#hero-C .container{
+    overflow-x: scroll;
+}
+
+#hero-D .container {
+    overflow-x: scroll;
 }
 
 .footer {
@@ -290,5 +367,10 @@ h1 {
     justify-content: space-evenly;
 }
 
-
+@media screen and (max-width: 768px) and (min-width: 300px) {
+    #logo {
+        width: 10px;
+        
+    }
+}
 
