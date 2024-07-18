@@ -1,7 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Spicy+Rice&display=swap');
 * {
     box-sizing: border-box;
     margin: 0px;
     padding: 0px;
+    text-decoration: none;
 }
 body {
     font-family: sans-serif;
@@ -43,7 +45,9 @@ body {
 #navbar .container {
     align-items: flex-start;
 }
-
+#navbar .nav-img-links {
+    display: flex;
+}
 .drop-contain {
     display: flex;
     justify-content: flex-start;
@@ -71,7 +75,7 @@ body {
     min-width: 200px;
     color: white;
     writing-mode: vertical-lr;
-
+    font-size: 50px;
 }
 #navbar .drop-menu a:hover {
 
@@ -79,6 +83,7 @@ body {
 }
 
 h3 {
+    font-family: "Spicy Rice", serif;
     color: white;
     font-style: italic;
     font-size: 24px;
@@ -90,6 +95,7 @@ h3 .container {
     border: purple;
     border-radius: 50%;
 }
+
 #hero-1 {
     background-image: linear-gradient(to bottom,black,rgba(50, 50, 28, 0)), 
     url(../images/octopus-1921090_1280.jpg);
@@ -103,7 +109,6 @@ h3 .container {
     font-size: 48px;
     display: flex;
     flex-direction: column;
-    margin-top: 5%;
 }
 #hero-1 a {
     color: black;
@@ -127,6 +132,7 @@ h3 .container {
 
 h1 {
     color: white;
+    font-family: "Spicy Rice", serif;
 }    
 #hero-2 .container {
     display: flex;
@@ -139,10 +145,11 @@ h1 {
     height: 400px;
 }
 
-.item p, h2 {
+.item p, h4 {
     color: white;
     text-align: center;
     text-decoration: none;
+    font-style: italic;
 }
 
 .top-items-cuisines {
@@ -293,6 +300,10 @@ h3 {
 h3 .container {
     font-style: italic;
 }
+
+#container-A {
+    display: flex;
+}
 #hero-A {
     background-image: 
     radial-gradient(at center, rgba(0, 0, 0, 0), rgb(0, 0, 0)), 
@@ -315,7 +326,10 @@ h3 .container {
 }
 #featured img {
     display: flex;
-
+    width: 50vw;
+}
+#featured h3 {
+    font-style: italic;
 }
 #hero-A .container {
     display: flex;
@@ -328,7 +342,7 @@ h1 {
 #hero-B .container {
     overflow-x: scroll;
 }
-#hero-B .container, #hero-C .container{
+#hero-B .container, #hero-C .container {
     display: flex;
     justify-content: center;
 }
@@ -338,6 +352,9 @@ h1 {
     height: 400px;
 }
 
+#hero-B, #hero-C, #hero-D h1 {
+    text-align: center;
+}
 .item p, h2 {
     color: white;
     text-align: center;
@@ -367,10 +384,26 @@ h1 {
     justify-content: space-evenly;
 }
 
-@media screen and (max-width: 768px) and (min-width: 300px) {
-    #logo {
-        width: 10px;
-        
+@media screen and (max-width: 1330px) and (min-width: 30px) {
+    #navbar .container {
+        flex-direction: column;
+        align-items: center;
+        .nav-img-links {
+            flex-wrap: wrap;
+            justify-content: center;
+        }
     }
+    #navbar #logo {
+        margin: 0px auto;
+        padding: 0px;
+        img {
+            width: 200px;
+        }
+    }
+}
+
+#copy-right {
+    color: white;
+    text-align: center;
 }
 
