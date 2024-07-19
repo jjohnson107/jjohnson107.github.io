@@ -38,9 +38,6 @@ body {
     font-weight: bold;
     font-size: 36px;
     padding: 0px 24px;
-    img {
-        width: 125%;
-    };
 }
 #navbar .container {
     align-items: flex-start;
@@ -76,9 +73,9 @@ body {
     color: white;
     writing-mode: vertical-lr;
     font-size: 50px;
+    font-family: "Spicy Rice", serif;
 }
 #navbar .drop-menu a:hover {
-
     display: block;
 }
 
@@ -286,7 +283,6 @@ body {
     min-width: 200px;
     color: white;
     writing-mode: vertical-lr;
-
 }
 #navbar .drop-menu a:hover {
     display: block;
@@ -355,10 +351,16 @@ h1 {
 #hero-B, #hero-C, #hero-D h1 {
     text-align: center;
 }
-.item p, h2 {
+.item p {
     color: white;
     text-align: center;
     text-decoration: none;
+}
+.item h2 {
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-family: "Spicy Rice", serif;
 }
 
 .top-items-cuisines, .top-items-cuisines-2, .top-items-desserts {
@@ -400,10 +402,9 @@ h1 {
             width: 200px;
         }
     }
-}
 
 #copy-right {
     color: white;
     text-align: center;
+} 
 }
-
