@@ -80,7 +80,6 @@ body {
 }
 
 h3 {
-    font-family: "Spicy Rice", serif;
     color: white;
     font-style: italic;
     font-size: 24px;
@@ -97,7 +96,7 @@ h3 .container {
     background-image: linear-gradient(to bottom,black,rgba(50, 50, 28, 0)), 
     url(../images/octopus-1921090_1280.jpg);
     width: 100vw;
-    height: 200vh;
+    height: 100vh;
     background-size: cover;
     background-position: center;
     justify-content: center;
@@ -369,7 +368,7 @@ h1 {
 }
 
 
-#hero-C .container{
+#hero-C .container {
     overflow-x: scroll;
 }
 
@@ -377,13 +376,14 @@ h1 {
     overflow-x: scroll;
 }
 
-.footer {
+.footer h2 {
     color: white;
     display: flex;
     justify-content: column;
     text-align: center;
     margin-bottom: 3%;
     justify-content: space-evenly;
+    font-family: "Spicy Rice", serif;
 }
 
 @media screen and (max-width: 1330px) and (min-width: 30px) {
